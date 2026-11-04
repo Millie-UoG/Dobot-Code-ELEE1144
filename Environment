@@ -1,0 +1,7 @@
+[env:megaatmega2560]
+platform = atmelavr
+board = uno
+framework = arduino
+targets = upload, monitor
+monitor_speed = 115200
+build_src_filter = -<*> +<main.cpp> 
